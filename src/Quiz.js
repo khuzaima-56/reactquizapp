@@ -21,7 +21,6 @@ const Quiz = ({ qlist }) => {
   }
 
   return (
-    <div>
       <div className="mainBox">
         {questionNo !== qlist.length ? (
           <>
@@ -52,7 +51,6 @@ const Quiz = ({ qlist }) => {
             </div>
         )}
       </div>
-    </div>
   );
 };
 export default Quiz;
