@@ -1,5 +1,6 @@
 {
   "name": "quizapp",
+    "homepage": "https://khuzaima-56.github.io/quiz",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
