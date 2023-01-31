@@ -3,7 +3,7 @@
 }
 
 .App-header {
-  background-color: #59d4e7;
+  background-color: rgb(46, 40, 36);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -18,7 +18,7 @@
 }
 
 .mainBox {
-  background-color: rgb(66, 56, 53);
+  background-color: rgb(28, 24, 22);
   width: 45vw;
   height: 40vh;
   display: flex;
@@ -76,6 +76,7 @@
 .answer:hover, .retake:hover {
   background-color: rgb(104, 87, 81);
   scale: 1.05;
+  color: white;
 }
 
 .scoreBox {
@@ -94,6 +95,7 @@
   border: 1px solid white;
   border-radius: 6px;
   transition-duration: 0.3s;
+  cursor: pointer;
 }
 
 @media (max-width : 560px) {
@@ -101,6 +103,10 @@
     flex-direction: column;
     height: 60vh;
     width: 80vw;
+  }
+
+  .questionBox {
+    padding-left: 5%;
   }
 }
 
